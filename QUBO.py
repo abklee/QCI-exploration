@@ -22,7 +22,7 @@ response_json = qclient.upload_file(file=qubo_data)
 
 job_body = qclient.build_job_body(job_type="sample-qubo",
     qubo_file_id=response_json['file_id'],
-    job_params={"device_type": "dirac-1", "num_samples": 5})
+    job_params={"device_type": "dirac-1", "num_samples": 1})
 
 print(job_body)
 
