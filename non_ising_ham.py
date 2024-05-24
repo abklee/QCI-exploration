@@ -6,7 +6,7 @@
 import qci_client as qc
 client = qc.QciClient(
 url="https://api.qci-prod.com",
-api_token="b81826ebae0f263aaa51e8bb08348ffe",
+api_token="SECRET",
 )
 # polynomial H = -x_1 -2x_2 -3x_3 - x_1^2 + x_2^2 - x_3^2 - 2*x_1*x_2 + 3x_1x_2x_3 - 5x_2x_3 + x_2^2x_3 + x_1^2x_3, subject to x_1 + x_2 + x_3 = 
 sum_constraints = [1, 10, 25, 50, 100]
