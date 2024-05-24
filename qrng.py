@@ -1,6 +1,6 @@
 import requests
 json_data = {
-"access_token": f"b81826ebae0f263aaa51e8bb08348ffe",
+"access_token": f"",
 }
 headers = {
 "accept": "application/json",
