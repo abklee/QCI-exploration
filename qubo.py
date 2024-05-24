@@ -7,7 +7,7 @@ import numpy as np
 from qci_client import QciClient
 import os
 
-token = "b81826ebae0f263aaa51e8bb08348ffe"
+token = "SECRET"
 api_url = "https://api.qci-prod.com"
 qclient = QciClient(api_token=token, url=api_url)
 
